@@ -1,6 +1,6 @@
 package com.bestbuy.tests;
 
-import org.testng.annotations.Test
+import org.testng.annotations.Test;
 import com.bestbuy.utils.BestWrappers;
 import com.bestbuy.utils.Reports;
 import com.bestbuy.utils.SelWrappers;

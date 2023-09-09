@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-08T06:24:30 EDT" name="Default suite" finished-at="2023-09-08T06:24:30 EDT" duration-ms="130">
+  <suite started-at="2023-09-09T03:11:29 EDT" name="Default suite" finished-at="2023-09-09T03:11:30 EDT" duration-ms="158">
     <groups>
     </groups>
-    <test started-at="2023-09-08T06:24:30 EDT" name="Default test" finished-at="2023-09-08T06:24:30 EDT" duration-ms="130">
-      <class name="com.bestbuy.tests.BestBuySignupTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bestbuy.tests.BestBuySignupTest@31be6b49]" started-at="2023-09-08T06:24:30 EDT" name="setUp" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1694168670545" status="FAIL">
+    <test started-at="2023-09-09T03:11:29 EDT" name="Default test" finished-at="2023-09-09T03:11:30 EDT" duration-ms="158">
+      <class name="com.bestbuy.tests.BestBuySignin_NegativeTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bestbuy.tests.BestBuySignin_NegativeTest@742ff096]" started-at="2023-09-09T03:11:29 EDT" name="setUp" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1694243489993" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\Administrator\AppData\Local\Temp\testng-eclipse-981516135\testng-customsuite.xml]]>
+in C:\Users\Administrator\AppData\Local\Temp\testng-eclipse--761802649\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\Administrator\AppData\Local\Temp\testng-eclipse-981516135\testng-customsuite.xml
+in C:\Users\Administrator\AppData\Local\Temp\testng-eclipse--761802649\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:267)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
 at org.testng.internal.Parameters.createParameters(Parameters.java:684)
@@ -47,17 +47,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="signUpPage()[pri:0, instance:com.bestbuy.tests.BestBuySignupTest@31be6b49]" started-at="2023-09-08T06:24:30 EDT" name="signUpPage" finished-at="2023-09-08T06:24:30 EDT" duration-ms="0" status="SKIP">
+        <test-method signature="signIn_invalidCredentials()[pri:0, instance:com.bestbuy.tests.BestBuySignin_NegativeTest@742ff096]" started-at="2023-09-09T03:11:30 EDT" name="signIn_invalidCredentials" finished-at="2023-09-09T03:11:30 EDT" duration-ms="1" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\Administrator\AppData\Local\Temp\testng-eclipse-981516135\testng-customsuite.xml]]>
+in C:\Users\Administrator\AppData\Local\Temp\testng-eclipse--761802649\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\Administrator\AppData\Local\Temp\testng-eclipse-981516135\testng-customsuite.xml
+in C:\Users\Administrator\AppData\Local\Temp\testng-eclipse--761802649\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:267)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
 at org.testng.internal.Parameters.createParameters(Parameters.java:684)
@@ -86,12 +86,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signUpPage -->
-        <test-method is-config="true" signature="closeBrowsers()[pri:0, instance:com.bestbuy.tests.BestBuySignupTest@31be6b49]" started-at="2023-09-08T06:24:30 EDT" name="closeBrowsers" finished-at="2023-09-08T06:24:30 EDT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowsers -->
-      </class> <!-- com.bestbuy.tests.BestBuySignupTest -->
+        </test-method> <!-- signIn_invalidCredentials -->
+      </class> <!-- com.bestbuy.tests.BestBuySignin_NegativeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
