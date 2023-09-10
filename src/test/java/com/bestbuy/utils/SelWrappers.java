@@ -19,15 +19,14 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-
-import com.bestbuy.utils.Reports;
 
 public class SelWrappers {
 
@@ -37,10 +36,8 @@ public class SelWrappers {
 
 	@BeforeClass
 	@Parameters("browser")
-	public void setUp(String browser)
-	{
-
-		this.browsername = browser;
+	public void setUp(@Optional("chrome") String browser) {
+				SelWrappers.browsername = browser;
 	}
 	public void launchBrowser()
 	{

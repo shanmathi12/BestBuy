@@ -22,7 +22,7 @@ public class BestBuyBottomPageTest extends SelWrappers {
 			se.chooseCountry();
 			//bl.bottomLinks();
 		   bw.bestBuyHomepageBottomLink();
-			screenshot("BottomLink_valid");
+			screenshot("BottomLink");
 		}
 		catch(Exception ex)
 		{

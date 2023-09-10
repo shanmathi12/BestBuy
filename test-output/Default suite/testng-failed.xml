@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bestbuy.tests.BestBuySignin_NegativeTest">
+      <class name="com.bestbuy.tests.BestBuySearch_NegativeTest">
         <methods>
           <include name="setUp"/>
           <include name="signIn_invalidCredentials"/>
         </methods>
-      </class> <!-- com.bestbuy.tests.BestBuySignin_NegativeTest -->
+      </class> <!-- com.bestbuy.tests.BestBuySearch_NegativeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

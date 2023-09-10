@@ -18,13 +18,13 @@ public class BestBuySearch_NegativeTest extends SelWrappers {
 		{
 		Reports.setTCDesc("Search with  invalid Credentials");
 		bw.launchBrowser();
-	//	bw.brokenLinkBestbuy();
+		bw.brokenLinkBestbuy();
 		se.chooseCountry();
 		bw.negativeTc_Search("fgfghjbnmbhjg");
 		screenshot("invalidSearch");
 		Reports.setTCDesc("Search with  Empty ");
-       bw.negativeTc_Search1("");
-       screenshot("emptySearch");
+        bw.negativeTc_Search1("");
+       screenshot("Empty Search");
 		}
 		catch(Exception ex)
 		{

@@ -22,7 +22,7 @@ public class BestBuyMenuTest extends SelWrappers {
 		    bw.bestBuyMenuPage();
 			Reports.reportStep("PASS", "Title page of Menu passed");
 
-			screenshot("Menu_valid");
+			screenshot("Menu valid");
 		}
 		catch(Exception ex)
 		{

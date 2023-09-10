@@ -19,8 +19,8 @@ public class BestBuySignin_NegativeTest extends SelWrappers {
 		bw.launchBrowser();
 		//bw.brokenLinkBestbuy();
 		se.chooseCountry();
-		bw.negativeTc_signIn("shanmathii123456@gmaill.com","Bestbuy@123");
-		screenshot("invalidSignin");
+		bw.negativeTc_signIn("shanmathii123456@gmaill.com","Shanmathi@123");
+		screenshot("SignIn Invalid");
 		Reports.setTCDesc("Sign in with valid username and empty field Password");
 		bw.negativeTc_signIn1("shansarav12@test.com","");
 		screenshot("emptypassd");
