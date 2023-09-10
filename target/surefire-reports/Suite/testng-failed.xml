@@ -11,26 +11,6 @@
           <include name="add_Items_toCart"/>
         </methods>
       </class> <!-- com.bestbuy.tests.BestBuyAddItemsTest -->
-      <class name="com.bestbuy.tests.BestBuySignupTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="closeBrowsers"/>
-          <include name="signUpPage"/>
-        </methods>
-      </class> <!-- com.bestbuy.tests.BestBuySignupTest -->
-      <class name="com.bestbuy.tests.BestBuySearch_NegativeTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="signIn_invalidCredentials"/>
-        </methods>
-      </class> <!-- com.bestbuy.tests.BestBuySearch_NegativeTest -->
-      <class name="com.bestbuy.tests.BestBuyBottomPageTest">
-        <methods>
-          <include name="bottomLinkValidation"/>
-          <include name="setUp"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- com.bestbuy.tests.BestBuyBottomPageTest -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

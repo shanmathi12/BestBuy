@@ -19,11 +19,11 @@ public class BestBuyAddItemsTest extends SelWrappers {
 			bw.launchBrowser();
 			//bw.brokenLinkBestbuy();
 			se.chooseCountry();
-			bw.bestBuyAddItemsToCart("macbook air 13.6 laptop","99504","shanmathi","saravanan","1200 N Muldoon Rd","Albuquerque","99504","shansarav12@test.com","9025128059");
-			//bw.dummyPaymentAndPlaceOrder("6543 6454 3854 5454", "123", "five+two=7");
-			Reports.reportStep("PASS", "item added in the cart");
+			bw.bestBuyAddItemsToCart("macbook air 13.6 laptop","99504","sadhana","sadhu","1200 N Muldoon Rd","Albuquerque","99504","sadhanasuba24@test.com","9688741481");
+			//bw.dummyPaymentAndPlaceOrder("6543 6454 3854 5454", "123", "One+two=3");
+			//Reports.reportStep("PASS", "item added in the cart");
 
-			screenshot("Additem valid");
+			screenshot("additem1_valid");
 		}
 		catch(Exception ex)
 		{

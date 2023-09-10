@@ -20,7 +20,7 @@ public class BestBuySignupTest extends SelWrappers {
 			bw.launchBrowser();
 			Reports.setTCDesc("Validating SignUp functionality with valid credentials");
 		   bw.brokenLinkBestbuy();
-			bw.bestSignUp("shanmathi","saravanan","sahansarav12@test.com","five+two=7","five+two=7","","shansarav12@test.com","five+two=7");
+			bw.bestSignUp("shanmathi","saravanan","sahansarav12@test.com","five+two=7","five+two=7","9025128059","shansarav12@test.com","five+two=7");
 			screenshot("signup_valid");
 		}
 		catch(Exception ex)
@@ -34,6 +34,4 @@ public class BestBuySignupTest extends SelWrappers {
 	{
 		closeAllBrowsers();
 	}
-	
-
 }

@@ -139,14 +139,14 @@ public class SelWrappers {
 		{
 			waitForMe(ele,20);
 			ele.click();
-		//Reports.reportStep("PASS", "Clicked on the given webelement successfully ");
+		Reports.reportStep("PASS", "Clicked on the given webelement successfully ");
 			
 
 		}
 		catch(Exception ex)
 		{
 			System.out.println("problem in click option");
-			Reports.reportStep("FAIL", "Problem while clicking on the webElement ");
+			//Reports.reportStep("FAIL", "Problem while clicking on the webElement ");
 			Reports.reportStep("FAIL", ex.toString());
 
 			ex.printStackTrace();
